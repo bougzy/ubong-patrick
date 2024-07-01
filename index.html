@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Tech Goals</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="img/ubong_patrick.jpeg" type="image/png">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>My Personal Website</h1>
+            <nav>
+                <a href="#profile">Profile</a>
+                <a href="#time-info">Time Info</a>
+                <a href="#goals">Goals</a>
+                <a href="#links">Links</a>
+            </nav>
+        </header>
+        <section id="profile" class="profile">
+            <img src="img/ubong_patrick.jpeg" alt="Slack Profile Picture" data-testid="slackProfilePicture">
+            <p class="slackDisplayName" data-testid="slackDisplayName">Ubong Patrick</p>
+            <p data-testid="slackEmail">yubee121@gmail.com</p>
+        </section>
+        <section id="time-info" class="time-info">
+            <p>Current Time (UTC): <span data-testid="currentTimeUTC"></span></p>
+            <p>Current Day: <span data-testid="currentDay"></span></p>
+        </section>
+        <section id="goals" class="goals">
+            <h2>My Goals Fo</h2>
+            <ul>
+                <li>Dedicate yourself to mastering a specific niche within the industry, such as front-end software development.</li>
+                <li>Make meaningful contributions to open-source projects.</li>
+                <li>Read books or take courses outside of tech to broaden knowledge and perspectives.</li>
+                <li>Dedicate time to read and reflect on sacred texts or spiritual literature to gain wisdom and insight.</li>
+                <li>Spend quality time with family members and create traditions or routines that enhance your connection.</li>
+                <li>Find a healthy balance between work, personal projects, and time spent with loved ones to ensure relationships are not neglected.</li>
+                <li>Invest in further education or skill development to enhance your career prospects and earning potential.</li>
+            </ul>
+        </section>
+    </div>
+    <footer id="links" class="links">
+        <a href="https://hng.tech/learn" data-testid="hngLink">HNG Learn</a>
+        <a href="https://keyword.dog" data-testid="keywordLink">Keyword Dog</a>
+        <a href="https://scrapeanyweb.site" data-testid="scrapeanywebLink">Scrape Any Web</a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
